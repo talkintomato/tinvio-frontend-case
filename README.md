@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Tinvio Frontend Case (Intern)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Time Limit: 48 hrs
 
-## Available Scripts
+Objective: ​You are tasked to create a frontend single page app (website) with the following mock reference to showcase Leanne Graham’s user details and posts. Her information and posts are updated frequently and her data is provided through an API service. Assets required to style the page is provided.
 
-In the project directory, you can run:
+Optional Tasks:
+The following are possible improvements you may choose to implement:
 
-### `npm start`
+1. Use React/Typescript in your implementation
+2. Add a visual loader when your data is loading
+3. Add UI to allow us to switch between users in the list
+   (See typicode implementation to extract post by userId)
+4. Mobile responsiveness
+5. Host the website for preview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+API Provided:
+https://jsonplaceholder.typicode.com/users/1
+https://jsonplaceholder.typicode.com/posts?userId=1
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+Start: 1300 05/02/2021
+End: 1300 07/02/2021
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Dear reader,
+Thank you for taking the time to view this project! I had a lot of fun attemping it and tackling the various tasks given to me.
 
-### `npm run build`
+Tasks:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. In this project, I have chosen to build the app using React.js, MaterialUi and firebase.
+2. A simple viual loader has been added when the app first loads to ensure all necessary data for rendering has been fetched to prevent failed builds
+3. Not attemped due to time constraints
+4. I have added the necessary styling to ensure mobile responsiveness in the cards!
+5. The app has been hosted using firebase! If you would like to have access to view the firebase backend data and hosting, do drop me and email!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The app is live at https://tinvio-demo.web.app
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To locally host this repo:
 
-### `npm run eject`
+1. clone repo into local machine using: git clone
+2. cd into folder and run following command in terminal: npm install
+3. Host locally using: npm start
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+If you have any questions or feedback about this project, do drop me an email! Thank you for your time!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Cheers,
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Darin Loh
+darinloh@gmail.com
+github.com/talkintomato

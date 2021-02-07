@@ -11,7 +11,6 @@ const useStyles = makeStyles({
     color: "rgba(0, 0, 0, 0.5)",
     fontWeight: "bold",
   },
-  header: {},
 });
 
 export default function PostFeed() {

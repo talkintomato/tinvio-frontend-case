@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Typography from "@material-ui/core/Typography";
 
@@ -23,11 +23,11 @@ const useStyles = makeStyles({
   },
 });
 
-const PostPreview = forwardRef(({ title, body }, ref) => {
+export default function PostPreview({ title, body }) {
   const classes = useStyles();
 
   return (
-    <div className={classes.root} ref={ref}>
+    <div className={classes.root}>
       <div>
         <Typography className={classes.title}> {title} </Typography>
       </div>
@@ -36,6 +36,4 @@ const PostPreview = forwardRef(({ title, body }, ref) => {
       </div>
     </div>
   );
-});
-
-export default PostPreview;
+}

@@ -20,10 +20,11 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-function App() {
+export default function App() {
   const classes = useStyles();
   const [users, setUsers] = useState([]);
 
+  // Get users from backend
   useEffect(() => {
     db.collection("users")
       .doc("1")
@@ -31,11 +32,12 @@ function App() {
   }, []);
   console.log(users);
 
+  // if data not loaded display loading screen
   if (users.length < 1) {
     return (
       <div className={classes.centered}>
-        <h1> Loading... </h1>
         <Loader />
+        <h1> Loading... </h1>
       </div>
     );
   }
@@ -60,5 +62,3 @@ function App() {
     </div>
   );
 }
-
-export default App;

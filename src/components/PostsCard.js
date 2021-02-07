@@ -6,13 +6,14 @@ import PostFeed from "./PostFeed.js";
 
 const useStyles = makeStyles((theme) => ({
   root: {
-    maxWidth: 800,
+    maxWidth: 700,
     margin: 15,
     overflowY: "scroll",
+    maxHeight: "100vh",
     [theme.breakpoints.up("sm")]: {
       flex: 0.5,
       minWidth: 400,
-      height: 500,
+      maxHeight: 500,
     },
   },
   header: {

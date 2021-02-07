@@ -4,12 +4,14 @@ import ListItem from "@material-ui/core/ListItem";
 import Grid from "@material-ui/core/Grid";
 import Avatar from "@material-ui/core/Avatar";
 import ListItemIcon from "@material-ui/core/ListItemIcon";
-import PhoneImg from "../assets/icon-24-phone.svg";
 import CategoryImg from "../assets/category.png";
 import ShopImg from "../assets/icon-24-shop.svg";
 import Typography from "@material-ui/core/Typography";
 import CardContent from "@material-ui/core/CardContent";
+import PhoneIcon from "@material-ui/icons/LocalPhoneOutlined";
 import { makeStyles } from "@material-ui/core/styles";
+// import PhoneImg from "../assets/icon-24-phone.svg";
+// Phone image file was corrupted so I replaced it with a material UI icon
 
 const useStyles = makeStyles({
   title: {
@@ -23,7 +25,8 @@ const useStyles = makeStyles({
   },
 });
 
-function ProfileInfo({ phone, bs, address, name }) {
+// List of user information with icons
+export default function ProfileInfo({ phone, bs, address, name }) {
   const classes = useStyles();
   return (
     <CardContent>
@@ -33,7 +36,7 @@ function ProfileInfo({ phone, bs, address, name }) {
           <List>
             <ListItem>
               <ListItemIcon>
-                <Avatar src={PhoneImg} />
+                <PhoneIcon style={{ fontSize: 35 }} />
               </ListItemIcon>
               <Typography className={classes.body}>{phone}</Typography>
             </ListItem>
@@ -55,5 +58,3 @@ function ProfileInfo({ phone, bs, address, name }) {
     </CardContent>
   );
 }
-
-export default ProfileInfo;
