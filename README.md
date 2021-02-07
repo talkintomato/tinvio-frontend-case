@@ -14,16 +14,16 @@ The following are possible improvements you may choose to implement:
 4. Mobile responsiveness
 5. Host the website for preview
 
-API Provided:
-https://jsonplaceholder.typicode.com/users/1
+API Provided:  
+https://jsonplaceholder.typicode.com/users/1  
 https://jsonplaceholder.typicode.com/posts?userId=1
 
 ---
 
-Start: 1300 05/02/2021
+Start: 1300 05/02/2021  
 End: 1300 07/02/2021
 
-Dear reader,
+Dear reader,  
 Thank you for taking the time to view this project! I had a lot of fun attemping it and tackling the various tasks given to me.
 
 Tasks:
@@ -46,6 +46,6 @@ If you have any questions or feedback about this project, do drop me an email! T
 
 Cheers,
 
-Darin Loh
-darinloh@gmail.com
+Darin Loh  
+darinloh@gmail.com  
 github.com/talkintomato
