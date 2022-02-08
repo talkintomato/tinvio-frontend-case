@@ -34,13 +34,6 @@ Tasks:
 4. I have added the necessary styling to ensure mobile responsiveness in the cards!
 5. The app has been hosted using firebase! If you would like to have access to view the firebase backend data and hosting, do drop me an email!
 
-The app is live at https://tinvio-demo.web.app
-
-To locally host this repo:
-
-1. Clone repo into local machine using: git clone
-2. cd into the folder and run following command in terminal: npm install
-3. Host locally using: npm start
 
 If you have any questions or feedback about this project, do drop me an email! Thank you for your time!
 
